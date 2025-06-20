@@ -1,0 +1,42 @@
+{
+    "name": "Relics",
+    "icon": "minecraft:cyan_dye",
+    "advancement": "minecraft:story/shiny_gear",
+    "category": "patchouli:features_cat",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The treasures of this world, relics are powerful trinkets that can be found in custom dungeons.$(br2)Each relic is located in a unique, hard to access region of the world. The following legends describe their location."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:wooden_sword",
+            "title": "Neo Set",
+            "text": "An ancient battle was fought in an eastern city, and its remnants are said to harbor very powerful gear."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:cyan_dye",
+            "title": "Relic of Defense",
+            "text": "This relic is said to be stowed away far from any prying eyes. While we have some leads on its location, no expeditions have returned successfully."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:orange_dye",
+            "title": "Relic of Strength",
+            "text": "A mountainous tribe is said to know of the location of this relic, hidden far underground in a valley near their village."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:gray_dye",
+            "title": "Relic of Immense Defense",
+            "text": "Ancient legends rumor this relic to be hidden deep beneath the origin of this world."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:red_dye",
+            "title": "Relic of Immense Strength",
+            "text": "Our oldest scholars rumor of a relic held by the piglins."
+        }
+    ]
+}

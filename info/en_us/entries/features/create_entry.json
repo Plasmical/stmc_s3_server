@@ -1,0 +1,27 @@
+{
+    "name": "Create",
+    "icon": "create:brass_hand",
+    "category": "patchouli:features_cat",
+    "advancement": "create:andesite_alloy",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The second pillar of this modpack, and arguably the more important one, is the Create mod.$(br2)Create documentation explains the possibilities of the mod much better than this will, so it is recommended to review that for more detail."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Energy",
+            "item": "create:water_wheel",
+            "text": "Create hinges on the concept of energy, which is generated through various means. The simplest and easiest method of generating energy is rotation.$(br2)Rotation, especially in early development, will mostly come through either the hand crank or through water wheels connected to other machines via gearboxes, cogs, and shafts."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Machines",
+            "text": "The main purpose of Create is to provide automation. This is achieved through machines.$(br2)The basic machines vital to Create automation include the mechanical press, the mechanical mixer, the mechanical drill, the mechanical saw, and the deployer."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "These machines can be used alone to process and create new specialty items, but they work best in combination with another.$(br2)Some of the easiest mechanisms and best to prioritize early on include villagerless iron farms, automatic mining machines, and automatic harvesters."
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "replace": false,
+    "values": [
+      "bigglobe:bigger_desert_pyramid",
+      "bigglobe:large_house",
+      "bigglobe:lava_lake",
+      "bigglobe:log_cabin",
+      "bigglobe:medium_house",
+      "bigglobe:mega_tree",
+      "bigglobe:obelisk",
+      "bigglobe:small_house",
+      "bigglobe:vanilla/buried_treasure",
+      "bigglobe:vanilla/desert_pyramid",
+      "bigglobe:vanilla/jungle_temple",
+      "bigglobe:vanilla/pillager_outpost",
+      "bigglobe:vanilla/shipwreck_beached",
+      "bigglobe:vanilla/stronghold",
+      "bigglobe:vanilla/village_desert",
+      "bigglobe:vanilla/village_plains",
+      "bigglobe:vanilla/village_savanna",
+      "bigglobe:vanilla/village_snowy",
+      "bigglobe:vanilla/village_taiga",
+      "bigglobe:vanilla/woodland_mansion",
+      "bigglobe:water_lake"
+    ]
+  }

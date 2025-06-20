@@ -1,0 +1,24 @@
+{
+    "name": "Travel",
+    "icon": "minecraft:elytra",
+    "category": "patchouli:worldgen_cat",
+    "advancement": "minecraft:story/enter_the_nether",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Travel$():$(br2)With how large the world is, understanding travel methods is imperative. There are many different approaches to improving travel times. This section will cover the four major ones."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Nether$():$(br2)The Nether in BigGlobe differs substantially from vanilla. Of course, travel is still faster (at a 8:1 ratio), but the Nether roof is no longer available because of the world build limit. Terrain is also much harder to traverse, so it's overall a poor idea to rely on the Nether for travel."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Tiered$():$(br2)The most consistent method of improving travel is improving your movement speed through tiered gear. All tools and armor can give speed boosts at higher tiers, along with other status improvements. These tiers are random whenever acquiring the gear, but can be reforged in anvils with amethyst and the gear material."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Hyperspace$():$(br2)Hyperspace is a new BigGlobe mechanic which connects the world together through waypoints. Space inside of hyperspace is nonlinear. Distance between waypoints will always be the square root of the physical distance. Look to the skies for how to make waypoints."
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:ender_pearl"
+        },
+        {
+            "item": "minecraft:shulker_shell"
+        },
+        {
+            "item": "minecraft:cod"
+        },
+        {
+            "item": "minecraft:cobweb"
+        },
+        {
+            "item": "minecraft:elytra"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        },
+        {
+            "item": "minecraft:rabbit_foot"
+        },
+        {
+            "item": "minecraft:feather"
+        },
+        {
+            "item": "minecraft:phantom_membrane"
+        }
+    ],
+    "result": {
+        "item": "origins:orb_of_origin",
+        "count": 1
+    }
+}

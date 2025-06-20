@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"tweaks:shulker_inventory_adj",
+		"origins:nine_lives",
+		"origins:strong_arms",
+		"origins:strong_arms_break_speed",
+		"origins:no_shield",
+		"origins:more_exhaustion"
+	],
+	"icon": {
+		"item": "minecraft:shulker_shell"
+	},
+	"order": 4,
+	"impact": 1,
+    "loading_priority": 1,
+    "name": "Shulk-adj"
+}

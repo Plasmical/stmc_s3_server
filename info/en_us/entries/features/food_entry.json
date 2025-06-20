@@ -1,0 +1,25 @@
+{
+    "name": "Food & Vitamins",
+    "icon": "minecraft:cooked_beef",
+    "category": "patchouli:features_cat",
+    "advancement": "minecraft:husbandry/root",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Food in this modpack is now more than just a hunger bar!$(br2)Food now gives vitamins, which award either positive or negative effects. Food items have also been expanded to include Farmer's Delight crops and products, so be sure to experiment to find what works best for you."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "There are five types of vitamins:$(br)$(l)Carbs$():$(br)These are found in nearly all foods, especially bread and other grains.$(br)Carb deficiencies reduce your speed & attack speed, while surpluses increase each of them.$(br2)$(l)Protein$():$(br)Protein is found mostly in meats.$(br)Protein deficiencies reduce your attack damage and attack knockback, while surpluses increases each of them.",
+            "title": "Vitamins"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Fat$():$(br)Fat is found in many different sources, especially meats.$(br)Fat deficiencies reduce your armor and knockback resistance, while surpluses increase them.$(br2)$(l)Vitamins$():$(br)Vitamins are found in various sources, especially fruits.$(br)Vitamin deficiencies reduce your max health & cause weakness, while suprluses increase your max health and grant regeneration."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Minerals$():$(br)Minerals are found in various sources.$(br)Mineral deficiencies cause bad luck and reduce armor toughness, while surpluses induce haste and increase armor toughness."
+        }
+    ]
+}

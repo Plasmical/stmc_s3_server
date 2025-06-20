@@ -1,0 +1,12 @@
+{
+  "type": "origins:inventory",
+  "title": "container.shulker_inventory_power",
+  "container_type": "hopper",
+  "drop_on_death": false,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "name": "Shulker Inventory (adj)",
+  "description": "You have 5 extra inventory slots that do not drop on death."
+}

@@ -1,0 +1,40 @@
+{
+    "name": "Natural Resources",
+    "icon": "minecraft:diamond_ore",
+    "category": "patchouli:worldgen_cat",
+    "advancement": "minecraft:story/mine_stone",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Wood Variants$():$(br2)Oak: high foliage, med. temp.$(br)Birch: med. foliage, med. temp.$(br)Spruce: med. foliage, low temp.$(br)Dark Oak: high foliage, low temp.$(br)Acacia: med. foliage, high temp.$(br)Jungle: high foliage, high temp.$(br)Cherry: med./high foliage, med. temp, high magicalness.$(br)Mangrove: med./high foliage, med. temp, low magicalness."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Ores$():$(br2)Coal: spawns with the same vanilla frequency; common to find anywhere there is exposed stone.$(br2)Iron: spawns everywhere, but more frequently higher in elevation.$(br2)Copper: spawns everywhere, but more at higher elevation. Spawns more than iron at high elevation, but less at low elevation."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Lapis: spawns below oceans near the surface & in river biomes. Look to river valleys for lapis.$(br2)Emerald: spawns at all elevations, but more common at high elevations & in hilly areas. Look for cliffsides and rivers travelling through mountainous regions for emeralds."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Gold: spawns below 128 blocks beneath the surface, and is more common deeper. Only spawns in warmer biomes, and spawns more the hotter the biome is.$(br2)Redstone: spawns below 128 blocks beneath the surface, and is more common deeper. Only spawns in colder biomes, and spawns more the colder the biome is.$(br2)Diamond: spawns below 256 blocks beneath the surface, and is more common deeper."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Blocks$():$(br2)Deepslate: spawns between 600 and 800 blocks beneath the surface, roughly.$(br2)Molten rock: spawns below 800 blocks beneath the surface. Cooling it with water turns it into a random ore.$(br2)Sugarcane: spawns around water lakes on the surface.$(br2)Ice: spawns on the underside of glaciers."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Glowstone: most common in crimson forests, warped forests, and infernos. Less common in nether and ashen wastes. Does not spawn in the valley of souls.$(br2)Shroomlights: spawns in the centers of wart block clusters on crimson and warped trees."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Nether Ores$():$(br2)Nether Gold: spawns most in crimson & warped biomes, and least in the valley of souls.$(br2)Quartz: spawns most in crimson & warped biomes, and least in nether & ashen wastes.$(br2)Sulfur: spawns most in nether wastes, and least in ashen wastes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ancient Debris: spawns in all biomes except the valley of souls. Spawns double in inferno biomes, and more beneath the lava oceans.$(br2)$(l)End Ores$():$(br2)Enderium: can spawn anywhere on end terrain."
+        }
+    ]
+}

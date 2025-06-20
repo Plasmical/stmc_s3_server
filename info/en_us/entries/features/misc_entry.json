@@ -1,0 +1,40 @@
+{
+    "name": "Miscellaneous Features",
+    "icon": "minecraft:amethyst_cluster",
+    "category": "patchouli:features_cat",
+    "advancement": "minecraft:story/smelt_iron",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "These pages cover some of the remaining features that aren't necessarily large enough to warrant their own entry, but should be mentioned nevertheless."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:chest",
+            "title": "Lootr",
+            "text": "All loot chests in the world can be looted by each player individually. Loot will be randomized by player and will not be accessible to others unless you take the loot out."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "FallingTree",
+            "text": "Trees will fall when the bottom log is broken, depleting the appropriate durability from your axe. If the axe does not have enough durability, it will break as much as it can. Because trees are made of both logs and wood, however, breaking one of each will be required to chop the whole tree."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "exposure:camera",
+            "title": "Exposure",
+            "text": "Capture your world in stunning detail with the Exposure mod. This mod allows you to take pictures of the world using a configurable camera. Develop the film afterwards by crafting it with different items. Then, put it through a lightroom to print it into a photograph!"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "IngotCraft",
+            "text": "This mod adds a couple of craftable ingots necessary for some Create add-ons."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:enchanted_book{StoredEnchantments:[{lvl:1s, id:\"minecraft:mending\"}]}",
+            "title": "Better than Mending",
+            "text": "This mod allows you to convert already gained experience into durability for any item with Mending on it."
+        }
+    ]
+}

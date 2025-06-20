@@ -1,0 +1,16 @@
+{
+    "name": "Nether & End",
+    "icon": "minecraft:obsidian",
+    "category": "patchouli:worldgen_cat",
+    "advancement": "minecraft:story/enter_the_nether",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Nether$():$(br2)While the Nether retains most of its vanilla generation, it has two massive differences: the world height limit is 1024 & some resources have been modified. Because of the new world height, structures are often above/below you. Some biomes have been renamed, but they are all the same still. Sulfur is also a new ore that allows for crafting gunpowder."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)End$():$(br2)The End has been completely altered, although does not feel that way. There are multiple new biomes, including the chorus forest and End Mountain. However, the scale of the world and the lack of new useful structures make the end progression and traversal feel very similar to vanilla."
+        }
+    ]
+}

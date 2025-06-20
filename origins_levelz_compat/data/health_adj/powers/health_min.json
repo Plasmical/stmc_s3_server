@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Health LevelZ Minimum Override",
+    "attribute": "minecraft:generic.max_health",
+    "value": -0.0,
+    "operation": "addition"
+  },
+  "name": "Health Adjustment",
+  "description": "Just overrides default health to proper starting values."
+}

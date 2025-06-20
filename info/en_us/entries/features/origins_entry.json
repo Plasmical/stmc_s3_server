@@ -1,0 +1,33 @@
+{
+    "name": "Origins",
+    "icon": "minecraft:dragon_breath",
+    "category": "patchouli:features_cat",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Origins mod allows you to choose a unique origin for your character, which grants special abilities and traits.$(br)The mod has been slightly altered from its base:$(br2)$(l)1.$() Each origin has received slight balancing tweaks.$(br)$(l)2.$() The orb of origin can now be crafted. "
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "tweaks:orb_of_origin_recipe",
+            "title": "Orb of Origin Recipe"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Origin Changes",
+            "text": "$(l)Enderian$():$(br)Can no longer reach further.$(br2)$(l)Merling$():$(br)No changes.$(br2)$(l)Phantom$():$(br)Phantom can now only be used when full hunger.$(br)Phantom also can only eat meat."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Elytrian$():$(br)No longer deals double damage while gliding.$(br2)$(l)Blazeborn$():$(br)Will not start the game in the Nether.$(br)Is no longer resistant to poison or hunger.$(br2)$(l)Avian$():$(br)No changes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Arachnid$():$(br)No changes.$(br2)$(l)Shulk$():$(br)Has fewer additional inventory slots.$(br)Has 1 less heart of life.$(br)No longer has natural armor.$(br2)$(l)Feline$():$(br)No changes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "If you have any questions about these changes, feel free to bring them up."
+        }
+    ]
+}

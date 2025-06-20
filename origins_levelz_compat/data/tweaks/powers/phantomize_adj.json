@@ -1,0 +1,15 @@
+{
+  "type": "origins:toggle",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "retain_state": false,
+  "condition": {
+    "type": "apoli:food_level",
+    "comparison": ">",
+    "compare_to": 19
+  },
+  "name": "Phantomize (adj)",
+  "description": "While phantomized, you can travel through blocks. However, you must be full hunger to phantomize."
+}

@@ -1,0 +1,32 @@
+{
+    "name": "LevelZ",
+    "icon": "minecraft:experience_bottle",
+    "category": "patchouli:features_cat",
+    "advancement": "minecraft:story/smelt_iron",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "LevelZ is a progression slowing mod that adds player skills which must be leveled up to unlock gear, items, and blocks. You should review these rqeuirements in the menu.$(br2)These skills are separated into $(l)twelve$() different categories:"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Points$():$(br2)Increasing each skill requires 1 point. Each skill maxes out at 20 points invested, for a total of 240 points to be obtained. You earn one point for each LevelZ level you advance. These levels scale differently to Minecraft levels and are contributed to by blue colored orbs & leveling up your Jobs."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Health$():$(br)You start at 6 health. Each point invested in this skill increases by 1 health.$(br2)$(l)Strength$():$(br)Each point invested increases attack damage slightly. This skill is also required for unlocking sword & axe melee use.$(br2)$(l)Agility$():$(br)Each point slightly increases movement speed & reduces fall damage. This skill is also required for elytra use."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Defense$():$(br)Each point slightly increases your defense. This skill also restricts armor usage.$(br2)$(l)Stamina$():$(br)Each point slightly reduces your exhaustion & increases your regeneration.$(br2)$(l)Luck$():$(br)Each point invested slightly increases your luck & your chance of landing a critical hit."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Archery$():$(br)Each point slightly increases bow damage. This skill also restricts range weapon usage.$(br2)$(l)Trade$():$(br)Each point slightly decreases trade prices. This skill also restricts trade by mob.$(br2)$(l)Smithing$():$(br)Each point increases the durability of tools. This skill is also required to unlock various workstations."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Mining$():$(br)Each point slightly increases the chance of extra ore drops. This skill also restricts pickaxe usage & blocks.$(br2)$(l)Farming$():$(br)This skill restricts tool usage.$(br2)$(l)Alchemy$():$(br)Each point slightly increases the chance of a better enchantment. This skill also restricts brewing recipes."
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"health_adj:health_min"
+	],
+    "icon": {
+		"item": "minecraft:player_head"
+	},
+	"order": 0,
+	"impact": 0,
+    "loading_priority": 1,
+    "name": "Human-adj"
+}

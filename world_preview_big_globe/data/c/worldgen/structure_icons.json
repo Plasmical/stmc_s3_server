@@ -1,0 +1,213 @@
+{
+  "minecraft:swamp_hut": {
+    "texture": "world_preview:textures/structure/swamp_hut.png"
+  },
+  "minecraft:ancient_city": {
+    "texture": "world_preview:textures/structure/ancient_city.png"
+  },
+  "minecraft:ruined_portal": {
+    "texture": "world_preview:textures/structure/ruined_portal.png"
+  },
+  "minecraft:ruined_portal_desert": {
+    "texture": "world_preview:textures/structure/ruined_portal.png",
+    "name": "Desert Ruined Portal"
+  },
+  "minecraft:ruined_portal_jungle": {
+    "texture": "world_preview:textures/structure/ruined_portal.png",
+    "name": "Jungle Ruined Portal"
+  },
+  "minecraft:ruined_portal_mountain": {
+    "texture": "world_preview:textures/structure/ruined_portal.png",
+    "name": "Mountain Ruined Portal"
+  },
+  "minecraft:ruined_portal_nether": {
+    "texture": "world_preview:textures/structure/ruined_portal.png",
+    "name": "Nether Ruined Portal"
+  },
+  "minecraft:ruined_portal_ocean": {
+    "texture": "world_preview:textures/structure/ruined_portal.png",
+    "name": "Ocean Ruined Portal"
+  },
+  "minecraft:ruined_portal_swamp": {
+    "texture": "world_preview:textures/structure/ruined_portal.png",
+    "name": "Swamp Ruined Portal"
+  },
+  "minecraft:jungle_pyramid": {
+    "texture": "world_preview:textures/structure/jungle_temple.png",
+    "name": "Jungle Temple"
+  },
+  "minecraft:monument": {
+    "texture": "world_preview:textures/structure/ocean_monument.png",
+    "name": "Ocean Monument"
+  },
+  "minecraft:mansion": {
+    "texture": "world_preview:textures/structure/mansion.png",
+    "name": "Woodland Mansion"
+  },
+  "minecraft:buried_treasure": {
+    "texture": "world_preview:textures/structure/chest.png"
+  },
+  "minecraft:shipwreck": {
+    "texture": "world_preview:textures/structure/shipwreck.png"
+  },
+  "minecraft:shipwreck_beached": {
+    "texture": "world_preview:textures/structure/shipwreck_beached.png",
+    "name": "Beached Shipwreck"
+  },
+  "minecraft:pillager_outpost": {
+    "texture": "world_preview:textures/structure/pillager_outpost.png"
+  },
+  "minecraft:trail_ruins": {
+    "texture": "world_preview:textures/structure/trail_ruins.png"
+  },
+  "minecraft:nether_fossil": {
+    "texture": "world_preview:textures/structure/nether_fossil.png"
+  },
+  "minecraft:end_city": {
+    "texture": "world_preview:textures/structure/end_city.png"
+  },
+  "minecraft:desert_pyramid": {
+    "texture": "world_preview:textures/structure/desert_temple.png",
+    "name": "Desert Temple"
+  },
+  "minecraft:stronghold": {
+    "item": "minecraft:ender_eye"
+  },
+  "minecraft:igloo": {
+    "texture": "world_preview:textures/structure/igloo.png"
+  },
+  "minecraft:ocean_ruin_cold": {
+    "texture": "world_preview:textures/structure/ocean_ruins.png",
+    "name": "Cold Ocean Ruins"
+  },
+  "minecraft:ocean_ruin_warm": {
+    "texture": "world_preview:textures/structure/ocean_ruins.png",
+    "name": "Warm Ocean Ruins"
+  },
+  "minecraft:mineshaft": {
+    "texture": "world_preview:textures/structure/mineshaft.png"
+  },
+  "minecraft:mineshaft_mesa": {
+    "texture": "world_preview:textures/structure/mineshaft.png",
+    "name": "Mesa Mineshaft"
+  },
+  "minecraft:fortress": {
+    "texture": "world_preview:textures/structure/nether_fortress.png",
+    "name": "Nether Fortress"
+  },
+  "minecraft:bastion_remnant": {
+    "texture": "world_preview:textures/structure/bastion.png"
+  },
+  "minecraft:village_plains": {
+    "texture": "world_preview:textures/structure/village_plains.png",
+    "name": "Plains Village"
+  },
+  "minecraft:village_desert": {
+    "texture": "world_preview:textures/structure/village_desert.png",
+    "name": "Desert Village"
+  },
+  "minecraft:village_savanna": {
+    "texture": "world_preview:textures/structure/village_savanna.png",
+    "name": "Savanna Village"
+  },
+  "minecraft:village_snowy": {
+    "texture": "world_preview:textures/structure/village_snowy.png",
+    "name": "Snowy Village"
+  },
+  "minecraft:village_taiga": {
+    "texture": "world_preview:textures/structure/village_taiga.png",
+    "name": "Taiga Village"
+  },
+  "bigglobe:bigger_desert_pyramid": {
+    "texture": "world_preview:textures/structure/bigger_desert_temple.png",
+    "name": "BG: Bigger Desert Pyramid"
+  },
+  "bigglobe:campfire": {
+    "texture": "world_preview:textures/structure/campfire.png",
+    "name": "BG: Campfire"
+  },
+  "bigglobe:large_house": {
+    "texture": "world_preview:textures/structure/large_house.png",
+    "name": "BG: Large House"
+  },
+  "bigglobe:lava_lake": {
+    "texture": "world_preview:textures/structure/",
+    "name": "BG: Lava Lake"
+  },
+  "bigglobe:log_cabin": {
+    "texture": "world_preview:textures/structure/log_cabin.png",
+    "name": "BG: Log Cabin"
+  },
+  "bigglobe:medium_house": {
+    "texture": "world_preview:textures/structure/medium_house.png",
+    "name": "BG: Medium House"
+  },
+  "bigglobe:mega_tree": {
+    "texture": "world_preview:textures/structure/mega_tree.png",
+    "name": "BG: Mega Tree"
+  },
+  "bigglobe:obelisk": {
+    "texture": "world_preview:textures/structure/obelisk.png",
+    "name": "BG: Obelisk"
+  },
+  "bigglobe:small_house": {
+    "texture": "world_preview:textures/structure/small_house.png",
+    "name": "BG: Small House"
+  },
+  "bigglobe:vanilla/ancient_city": {
+    "texture": "world_preview:textures/structure/ancient_city.png",
+    "name": "Ancient City"
+  },
+  "bigglobe:vanilla/buried_treasure": {
+    "texture": "world_preview:textures/structure/chest.png",
+    "name": "Buried Treasure"
+  },
+  "bigglobe:vanilla/desert_pyramid": {
+    "texture": "world_preview:textures/structure/desert_temple.png",
+    "name": "Desert Pyramid"
+  },
+  "bigglobe:vanilla/jungle_temple": {
+    "texture": "world_preview:textures/structure/jungle_temple.png",
+    "name": "Jungle Temple"
+  },
+  "bigglobe:vanilla/pillager_outpost": {
+    "texture": "world_preview:textures/structure/pillager_outpost.png",
+    "name": "Pillager Outpost"
+  },
+  "bigglobe:vanilla/shipwreck_beached": {
+    "texture": "world_preview:textures/structure/shipwreck_beached.png",
+    "name": "Beached Shipwreck"
+  },
+  "bigglobe:vanilla/stronghold": {
+    "texture": "world_preview:textures/structure/stronghold.png",
+    "name": "Stronghold"
+  },
+  "bigglobe:vanilla/village_desert": {
+    "texture": "world_preview:textures/structure/village.png",
+    "name": "Desert Village"
+  },
+  "bigglobe:vanilla/village_plains": {
+    "texture": "world_preview:textures/structure/village.png",
+    "name": "Plains Village"
+  },
+  "bigglobe:vanilla/village_savanna": {
+    "texture": "world_preview:textures/structure/village.png",
+    "name": "Savanna Village"
+  },
+  "bigglobe:vanilla/village_snowy": {
+    "texture": "world_preview:textures/structure/village.png",
+    "name": "Snowy Village"
+  },
+  "bigglobe:vanilla/village_taiga": {
+    "texture": "world_preview:textures/structure/village.png",
+    "name": "Taiga Village"
+  },
+  "bigglobe:vanilla/woodland_mansion": {
+    "texture": "world_preview:textures/structure/mansion.png",
+    "name": "Woodland Mansion"
+  },
+  "bigglobe:water_lake": {
+    "texture": "world_preview:textures/structure/water_lake.png",
+    "name": "BG: Water Lake"
+  }
+}

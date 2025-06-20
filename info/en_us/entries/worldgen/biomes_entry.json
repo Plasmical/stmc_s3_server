@@ -1,0 +1,39 @@
+{
+    "name": "Biomes & Height",
+    "icon": "minecraft:snow_block",
+    "category": "patchouli:worldgen_cat",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "BigGlobe completely overhauls the biomes of the world. These new biomes are determined by three characteristics: $(l)temperature$(), $(l)coverage$(), and $(l)magicalness$().$(br2)$(l)(1)$() Temperature is self-explanatory: colder temperatures look more like vanilla snowy biomes; higher temperatures like vanilla deserts."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)(2)$() Coverage refers to vegetation density: higher coverage means denser forests, whereas low coverage refers to biomes more akin to plains.$(br2)$(l)(3)$() Magicalness is a slight modifier to generate two types of biomes: swamps generate in areas with low magicalness, and cherry blossoms generate in areas with high magicalness."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "In summary, BigGlobe has the following land biomes:$(br2)$(l)Cold Wasteland$()$(br)$(l)Cold Plains$()$(br)$(l)Cold Light Forest$()$(br)$(l)Cold Dense Forest$()$(br)$(l)Temperate Wasteland$()$(br)$(l)Temperate Plains$()$(br)$(l)Temperate Light Forest$()$(br)$(l)Temperate Dense Forest$()$(br)$(l)Warm Wasteland$()$(br)$(l)Warm Plains$()$(br)$(l)Warm Light Forest$()$(br)$(l)Warm Dense Forest$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Hot Wasteland$()$(br)$(l)Hot Plains$()$(br)$(l)Hot Light Forest$()$(br)$(l)Hot Dense Forest$()$(br)$(l)Cherry Plains$()$(br)$(l)Cherry Forest$()$(br)$(l)Swamp Wasteland$()$(br)$(l)Swamp Plains$()$(br)$(l)Swamp Forest$()$(br)"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Ocean biomes are now determined by $(l)depth$(), introducing a new shallow ocean, and the previous frozen ocean has now been replaced by a glacier biome, covering the ocean in a sheet of snow.$(br2)The new ocean biomes are:$(br2)$(l)Shallow Ocean$(br)Ocean$(br)Deep Ocean$(br)Glacier$()"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Rivers have been significantly changed, now cutting deep through the terrain and meandering linearly through the world. These rivers are wonderful sources of gravel, flint, and many ores.$(br2)Finally, beaches have been expanded to match the new scale, and a new beach variant, the $(l)overgrown beach$() has been added to reflect high vegetation regions."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The most obvious change to the world generation is the new height system.$(br)BigGlobe increases the world height size to 2048 blocks, ranging from y=1024 to y=-1024.$(br2)In this new world, sea level & the water table is located at y=0. Mountains can now reach into the 800s, and oceans can plummet down to the -500s."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Underground, caves have been entirely altered. Caves are now much larger, reaching around y=-400, whereupon they typically end.$(br2)Diving further, around y=-600, deepslate begins generating as the biome transitions into the Deep Dark. Here, ancient cities can spawn anywhere.$(br2)Even further down, around y=-800, a new biome, $(l)The Core$() begins. This biome's natural stone can drop ores, but be wary of the immense heat."
+        }
+    ]
+}

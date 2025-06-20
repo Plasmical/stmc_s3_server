@@ -1,0 +1,31 @@
+{
+    "name": "Structures",
+    "icon": "minecraft:campfire",
+    "category": "patchouli:worldgen_cat",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "All vanilla structures have been maintained in BigGlobe world.$(br2)In addition, new structures have been added:$(l)$(br2)Geodes$(): These are large underground deposits of either amethyst or prismarine.$(l)$(br2)Mega Trees"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Houses$(): These come in three variants -- small, medium, and large -- and contain villagers & some loot.$(l)$(br2)Lakes$(): These come in water & lava variants. Water lakes are the only source of sugarcane in the world.$(l)$(br2)Surface mineshafts$(): These protrusions lead underground to a custom mineshaft."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Abandoned Cities$(): These massive structures are mostly empty with some loot.$(l)$(br2)Obelisks$(): These large pillars of deepslate are hollow inside and offer an easier source of deepslate & clouds/aura inside.$(l)$(br2)Bigger Desert Pyramids$(): These replace the typical loot room with an underground labyrinth."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Further, some vanilla structures have been slightly altered.$(br2)Strongholds now spawn much deeper below the ground, often in the space between caves & the deep dark.$(br2)Ancient Cities can now spawn anywhere in the world.$(br2)Mansions can now spawn in either temperate or warm biomes, not just dark forests."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Nether structures have also been slightly altered to adjust for new height generation: all structures can spawn at any y-level."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Finally, a few custom structures have been added to accompany some secret features. Good luck searching!"
+        }
+    ]
+}
