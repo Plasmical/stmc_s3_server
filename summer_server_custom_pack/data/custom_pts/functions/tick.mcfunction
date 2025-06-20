@@ -8,6 +8,8 @@
 # quick check to make sure all players have at minimum 0 points
 execute as @a unless entity @s[scores={points=0..}] run scoreboard players set @s points 0
 
+# <===== REDEEM RELICS =====>
+
 # check if players choose to redeem relics
 scoreboard players enable @a relic_redeem
 
@@ -33,12 +35,41 @@ execute as @a as @s[scores={relic_redeem=1..,relic_strength_2=1..}] run clear @s
 
 execute as @a run scoreboard players set @s relic_redeem 0
 
-# weekly challenges check
+# <===== WEEKLY CHALLENGES =====>
 
-# TODO
+# week 1
+# obtain poison potion effect
+execute as @a unless entity @s[advancements={custom_pts:weekly_challenge_one=true}] as @s[nbt={ActiveEffects:[{Id: 19}]}] run advancement grant @s only custom_pts:weekly_challenge_one
+
+# week 2
+# reach world build limit (any dimension)
+execute as @a unless entity @s[advancements={custom_pts:weekly_challenge_two=true}] as @s[y=1023,dy=20] run advancement grant @s only custom_pts:weekly_challenge_two
+
+# week 3
+# kill an elder guardian
+# we don't actually handle this here since the advancement criteria does all the work
+# just need to make sure the following criteria is set up in the advancement file
+# "criteria": {
+#     "elder_guardian_kill": {
+#       "trigger": "minecraft:player_killed_entity",
+#       "conditions": {
+#         "entity": {
+#           "type": "minecraft:elder_guardian"
+#         }
+#       }
+#     }
+#   }
+
+# week 4
+# obtain a stack of blast furnaces
+execute as @a unless entity @s[advancements={custom_pts:weekly_challenge_four=true}] as @s[nbt={Inventory:[{id:"minecraft:blast_furnace",Count:64b}]}] run advancement grant @s only custom_pts:weekly_challenge_four
+
+# <===== LEVELZ LEVEL =====>
 
 # update players' LevelZ level
 execute as @a store result score @s levelz_level run data get entity @s Level
+
+# <===== POINTS UPDATE =====>
 
 # finally, update players' points
 
@@ -52,8 +83,10 @@ execute as @a as @s[advancements={custom_pts:defense_two_relic=true}] run scoreb
 execute as @a as @s[advancements={custom_pts:strength_two_relic=true}] run scoreboard players add @s points 50
 
 # then based on weekly challenges
-
-# TODO
+execute as @a as @s[advancements={custom_pts:weekly_challenge_one=true}] run scoreboard players add @s points 25
+execute as @a as @s[advancements={custom_pts:weekly_challenge_two=true}] run scoreboard players add @s points 25
+execute as @a as @s[advancements={custom_pts:weekly_challenge_three=true}] run scoreboard players add @s points 25
+execute as @a as @s[advancements={custom_pts:weekly_challenge_four=true}] run scoreboard players add @s points 25
 
 # and finally based on LevelZ level
 execute as @a run scoreboard players operation @s points += @s levelz_level
