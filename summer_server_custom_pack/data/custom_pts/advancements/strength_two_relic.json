@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_dye"
+    },
+    "title": {
+      "text": "Strength II",
+      "color": "#ff0000",
+      "bold": true
+    },
+    "description": "Awarded for redeeming the Relic of Immense Strength",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "custom_pts:defense_two_relic",
+  "criteria": {
+    "function_award": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "custom_pts:relic_redeem"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gray_dye"
+    },
+    "title": {
+      "text": "Defense II",
+      "color": "#c0c0c0",
+      "bold": true
+    },
+    "description": "Awarded for redeeming the Relic of Immense Defense",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "custom_pts:strength_relic",
+  "criteria": {
+    "function_award": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "custom_pts:relic_redeem"
+  }
+}

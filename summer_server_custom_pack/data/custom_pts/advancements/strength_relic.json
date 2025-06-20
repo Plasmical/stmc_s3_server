@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_dye"
+    },
+    "title": {
+      "text": "Strength I",
+      "color": "#ff8040",
+      "bold": true
+    },
+    "description": "Awarded for redeeming the Relic of Strength",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "custom_pts:defense_relic",
+  "criteria": {
+    "function_award": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "custom_pts:relic_redeem"
+  }
+}

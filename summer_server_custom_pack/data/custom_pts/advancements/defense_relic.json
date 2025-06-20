@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_dye"
+    },
+    "title": {
+      "text": "Defense I",
+      "color": "#8080ff",
+      "bold": true
+    },
+    "description": "Awarded for redeeming the Relic of Defense",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "custom_pts:points_root",
+  "criteria": {
+    "function_award": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "custom_pts:relic_redeem"
+  }
+}
