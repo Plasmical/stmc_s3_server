@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "text": "Weekly Challenge I",
+      "color": "#008000"
+    },
+    "description": {
+      "text": "June 21",
+      "color": "#808080"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "custom_pts:points_root",
+  "criteria": {
+    "function_award": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

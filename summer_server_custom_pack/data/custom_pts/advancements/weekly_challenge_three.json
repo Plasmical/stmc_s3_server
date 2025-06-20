@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "title": {
+      "text": "Weekly Challenge 3",
+      "color": "#008000"
+    },
+    "description": {
+      "text": "July 5",
+      "color": "#808080"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "custom_pts:weekly_challenge_two",
+  "criteria": {
+    "function_award": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
