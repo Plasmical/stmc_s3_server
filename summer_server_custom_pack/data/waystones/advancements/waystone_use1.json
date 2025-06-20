@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": "Just a Short Visit",
+    "description": "Use a Waystone for the first time",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "award": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": []
+}

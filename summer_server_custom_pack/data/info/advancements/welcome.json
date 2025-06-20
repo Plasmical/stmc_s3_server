@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_breath"
+    },
+    "title": "Welcome!",
+    "description": "There's a lot to explore. Get out there!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "must_grant": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "loot": [
+      "info:grant_book"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": "I Promise",
+    "description": "Use a Waystone ten times",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "waystones:waystone_use1",
+  "criteria": {
+    "award": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": []
+}

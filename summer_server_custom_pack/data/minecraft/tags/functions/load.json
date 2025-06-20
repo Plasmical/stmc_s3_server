@@ -1,0 +1,8 @@
+{
+    "values":[
+        "waystones:load",
+        "qol:load",
+        "spawns:load",
+        "dungeons:load"
+    ]
+}

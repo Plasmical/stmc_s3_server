@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": "Waystone Master",
+    "description": "Use a Waystone fifty times",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "waystones:waystone_use2",
+  "criteria": {
+    "award": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "loot": [
+      "minecraft:blocks/emerald_block"
+    ],
+    "experience": 100
+  }
+}
